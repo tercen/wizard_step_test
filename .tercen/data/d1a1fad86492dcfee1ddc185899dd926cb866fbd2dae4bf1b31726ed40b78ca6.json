@@ -1,0 +1,101 @@
+{
+ "kind": "TableSchema",
+ "id": "d1a1fad86492dcfee1ddc185899dd926cb866fbd2dae4bf1b31726ed40b78ca6",
+ "isDeleted": false,
+ "rev": "",
+ "description": "Data from an experiment where the chemicals acifluorfen and diquat tested on Lemna minor.",
+ "name": "Dose-Response - Acidiq",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [
+  "drc",
+  "dose response",
+  "curve fitting"
+ ],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "PUBLISHED",
+   "value": "true"
+  },
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "d1a1fad86492dcfee1ddc185899dd926cb866fbd2dae4bf1b31726ed40b78ca6"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 180,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "70baaf82-8a22-4b24-8003-23bf8ded3c3f",
+   "name": "Dose",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9a0b41c8-0ac2-45bb-8d31-e832b5ecb3bd",
+   "name": "Group",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d53ea504-b2fd-4aa2-bc00-e0b297cfafee",
+   "name": "Response",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/d1/a1/d1a1fad86492dcfee1ddc185899dd926cb866fbd2dae4bf1b31726ed40b78ca6",
+ "relation": {
+  "kind": "Relation",
+  "id": "814e1011-6ec9-489d-a5a1-d973b9aa0ad0"
+ },
+ "size": 4704
+}

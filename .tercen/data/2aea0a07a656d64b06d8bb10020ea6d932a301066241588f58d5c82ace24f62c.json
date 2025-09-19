@@ -1,0 +1,254 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "2aea0a07a656d64b06d8bb10020ea6d932a301066241588f58d5c82ace24f62c",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "98fc50f0-956a-11f0-9b87-df07cc3c9c80",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "2aea0a07a656d64b06d8bb10020ea6d932a301066241588f58d5c82ace24f62c"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 1,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "7f44cb42-f39f-4785-9427-e10a9d4c3e07",
+   "name": "ws0.ds00.Effect",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "93cd0631-830c-4a27-816a-b14dda65d0f3",
+   "name": "ws0.ds00.DFn",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9d73ed1e-1fa9-4edf-9eac-0751897940b9",
+   "name": "ws0.ds00.DFd",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "9ef76d35-6f37-4d6d-ba05-57196ed1c6ae",
+   "name": "ws0.ds00.F",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "11938acc-0429-4c6c-86ee-e871922a343a",
+   "name": "ws0.ds00.p",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "fee661c7-01a3-407d-b3cd-4bfbb89273f5",
+   "name": "ws0.ds00.significance",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ca6a9db9-682b-47b1-bf63-ed0daaff6b2d",
+   "name": "ws0.ds00.ges",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/2a/ea/2aea0a07a656d64b06d8bb10020ea6d932a301066241588f58d5c82ace24f62c",
+ "relation": {
+  "kind": "Relation",
+  "id": "56fe95d9-556b-47cc-a92a-63ad2ab1cc6f"
+ },
+ "size": 608,
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "RenameRelation",
+   "id": "274f9b52-aeac-4d81-8475-eddcbfa196df",
+   "relation": {
+    "kind": "SimpleRelation",
+    "id": "d1a1fad86492dcfee1ddc185899dd926cb866fbd2dae4bf1b31726ed40b78ca6",
+    "index": 0
+   },
+   "inNames": [
+    "Dose",
+    "Group",
+    "Response",
+    "d1a1fad86492dcfee1ddc185899dd926cb866fbd2dae4bf1b31726ed40b78ca6._rids"
+   ],
+   "outNames": [
+    "Dose",
+    "Group",
+    "Response",
+    "rowId"
+   ]
+  },
+  "colColumns": [],
+  "rowColumns": [],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "Response",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [
+     {
+      "kind": "Factor",
+      "name": "Group",
+      "type": "string"
+     }
+    ],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ws0.ds00",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "ANOVA",
+    "version": "1.0.7",
+    "operatorId": "0",
+    "operatorKind": "DockerOperator",
+    "propertyValues": [
+     {
+      "kind": "PropertyValue",
+      "name": "method",
+      "value": "one.way"
+     }
+    ],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/anova_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}
